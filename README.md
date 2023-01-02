@@ -16,7 +16,7 @@ _Recommendation:_ follow the order of the files
 
 All tasks are defined in `/api/user/index.tsx`, `ssr.tsx`, `web3.tsx` files in `/pages` directory.
 
-You can use [Remix IDE](https://remix.ethereum.org/) to deploy the smart contract to _Goerli_ network 
+You can use [Remix IDE](https://remix.ethereum.org/) to deploy the smart contract to _Goerli_ network
 
 ## Setup
 

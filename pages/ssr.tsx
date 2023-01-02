@@ -42,7 +42,9 @@ export const getServerSideProps = async () => {
   };
 };
 
-export default function SSRPage({ users }: { users: UserWithTotalPosts[] } = { users: [] }) {
+export default function SSRPage(
+  { users }: { users: UserWithTotalPosts[] } = { users: [] }
+) {
   return (
     <MainLayout>
       <section className="h-full space-y-2">

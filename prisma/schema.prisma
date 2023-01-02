@@ -11,18 +11,18 @@ datasource db {
 }
 
 model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  lastName  String
-  name  String
-  age Int
-  posts Post[]
+  id       Int    @id @default(autoincrement())
+  email    String @unique
+  lastName String
+  name     String
+  age      Int
+  posts    Post[]
 }
 
 model Post {
-  id        Int     @id @default(autoincrement())
-  title     String
+  id     Int    @id @default(autoincrement())
+  title  String
   desc   String
-  user    User    @relation(fields: [userId], references: [id])
-  userId  Int
+  user   User   @relation(fields: [userId], references: [id])
+  userId Int
 }

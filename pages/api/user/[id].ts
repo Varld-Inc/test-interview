@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { Error } from "../../../types";
-import {User} from "@prisma/client";
+import { User } from "@prisma/client";
 import prisma from "../../../lib/prisma";
 
 export default async function handler(

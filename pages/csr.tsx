@@ -2,11 +2,11 @@ import { useState } from "react";
 import MainLayout from "../layouts/MainLayout";
 import { buildAPIUrl } from "../lib/utils";
 
-/* 
+/*
  ** TODO:
  ** Refactor this code as much as you can
  ** Style the form (tailwindcss is preferable)
- ** 
+ **
  ** PS. If you wanna extract some functionality to another file then
  ** just create it in this file and write a comment above with file name that you would give
  */

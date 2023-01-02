@@ -9,7 +9,7 @@ import { Web3FormData } from "../types";
  ** Add web3 functionality below
  ** Use Goerli test network
  ** Use any ethereum provider
- ** Example of the contract to interact with is in `./contract.example.sol`
+ ** Example of the contract to interact with is in `../contract.example.sol`
  */
 
 const initialFormData = {
